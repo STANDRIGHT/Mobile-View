@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+:root {
+    --main: #fff;
+    --green: #32CD32;
+    --majorFont: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.wrapper {
+    width: 414px;
+    max-width: 100%;
+    margin: 0px auto;
+    /* background-color: hsla(0, 81%, 46%, 0.867)ffdd; */
+    height: 696px;
+    position: relative;
+
+}
+
+/* END */
+
+
+/* GREENY CONTAINER STARTS HERE */
+.wrapper .greenyContainer {
+    background-color: #32CD32;
+    padding-top: 40px;
+    width: 100%;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+.greenyContainer .greenyAwesome {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.greenyContainer .greenytext p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+/* GREENY CONTAINER ENDS HERE */
+
+
+
+
+/* BALANCE STARTS HERE */
+.balance {
+    background-color: rgb(247, 247, 247);
+}
+
+.balance-details {
+    width: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.027);
+}
+
+.balance-details .balanceCaption {
+    color: #32CD32;
+    font-weight: 500;
+}
+
+.balance-details .amount p {
+    font-size: 2.3rem;
+    font-weight: 400;
+    font-family: var(--majorFont);
+}
+
+
+.balance-details .balanceAwesome {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+
+.balance-details .balanceAwesome span {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(9, 140, 173);
+    font-size: 1rem;
+}
+
+
+/* BALANCE STOPS HERE */
+
+
+
+/* Transaction */
+.nav-link {
+    color: #32CD32;
+    font-weight: 500;
+}
+
+.tab-content .tab-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tab-content .tab-body {
+    background-color: rgb(247, 247, 247);
+}
+
+.tab-content .tab-head p {
+    text-align: center;
+    align-content: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
